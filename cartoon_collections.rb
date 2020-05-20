@@ -16,7 +16,7 @@ def list_dwarves(array)
     
   array.each_with_index {|val, index|
   actIndex = index + 1
-  bindin
+  bindins.pry
     puts (actIndex  + ". Hello"  + val)
     
   }
